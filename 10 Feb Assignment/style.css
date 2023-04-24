@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+
+.hamber{
+    display:none;
+}
+ul{
+    display: flex;
+    gap:25px;
+    justify-content:end;
+}
+
+ul{
+  list-style: none;
+}
+
+nav{
+   margin: 15px;
+
+
+    
+}
+
+#home_button{
+    padding: 5px 10px;
+    background: rgb(100, 100, 224);
+    border-radius: 15px;
+}
+
+button{
+    padding: 25px;
+    background-color: rgb(29, 80, 124);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 5000px;
+}
+
+.waving{
+    height: 25px;
+}
+   
+.Dev{
+color: rgb(197, 169, 13);
+}
+.hiii{
+    display: flex;
+}
+.pc{
+    width: 350px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .project{
+    width: 20vw;
+} 
+
+ .project_sec{
+    padding: 25px;
+   text-align: center;
+   
+}
+
+.pro{
+    text-decoration:5px blue underline ;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.project_sec{
+
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: cente
+}
+
+.projects_l{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+     column-gap: 20px; 
+}   */
+
+img[alt="project-image"]{
+    width: 20vw;
+}
+.projects{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects div h1{
+    font-size: 40px;
+}
+.horizontal-divider{
+    height: 10px;
+    width: 135px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+     column-gap: 20px; 
+}
+
+img[alt="social"]{
+    width: 30px;
+   gap: 10px;
+   
+}
+
+.social{
+
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+}
+
+.co{
+    font-size:27px;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #111827;
+        color: white;
+    }
+    
+    ul{
+        display: none;
+    }
+    
+    ul{
+      list-style: none;
+    }
+    
+    nav{
+       margin: 15px;
+    }
+
+    .hamber{
+        display: block;
+        width: 20px;
+    }
+     .Left{
+        padding: 25px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+     }
+
+     .projects{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects div h1{
+        font-size: 40px;
+    }
+    .horizontal-divider{
+        height: 10px;
+        width: 135px;
+        background-color: blue;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .project-list{
+        display: grid;
+        grid-template-columns: 1fr ;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+         column-gap: 20px; 
+    }
+    
+
+    .hiii{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    
+    .waving{
+        height:50px;
+        width: 50px;
+    }
+       
+    .Dev{
+    color: rgb(197, 169, 13);
+    }
+  
+    .pc{
+        width: 200px;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img[alt="project-image"]{
+        width: 50vw;
+    }
+    
+    
+    img[alt="social"]{
+        width: 30px;
+       gap: 10px;
+       
+    }
+    
+    .social{
+    
+            margin: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+    }
+    
+    .co{
+        font-size:27px;
+    }
+}
